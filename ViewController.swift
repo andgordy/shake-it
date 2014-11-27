@@ -1,6 +1,8 @@
 @IBAction func tapButtonTUI (sender: UIButton) {
-  shakeIt(30)
+  shakeIt(30) // must be a multiple of 5
   }
+  
+// IBOutlet of the object that should be shaked goes here. I'll add it soon
 
 func shakeIt (point: Int) {
   let x = CGFloat(point)
